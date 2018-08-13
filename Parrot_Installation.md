@@ -33,7 +33,7 @@ tar xvf openvas-libraries-8.0.8.tar.gz
 
 tar xvf openvas-scanner-5.0.7.tar.gz
 
-tar xvf openvas-cli-1.4.4.tar.gz
+tar xvf openvas-cli-1.4.4.tar.gz 
 
 tar xvf nmap-5.51.6.tgz
 

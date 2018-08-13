@@ -2,6 +2,8 @@ https://www.greenbone.net/
 
 sudo apt-get install build-essential bison flex cmake pkg-config libglib2.0-dev libpcap0.8-dev libgpgme11 libgpgme-dev doxygen libuuid1 uuid-dev libsql-translator-perl xmltoman sqlite3 libxml2-dev libxslt1.1 libxslt1-dev xsltproc libmicrohttpd-dev libpcap-dev pkg-config libgpgme11-dev uuid-dev sqlfairy xmltoman doxygen libssh-dev libksba-dev libldap2-dev libsqlite3-dev libmicrohttpd-dev clang rsync rpm nsis alien  libhiredis-dev libgcrypt11-dev libgnutls28-dev redis-server texlive-latex-base texlive-latex-recommended linux-headers-$(uname -r) -y
 
+
+
 Make temporary directory to d/l source, extract and compile
 
 cd ~
@@ -118,8 +120,8 @@ ldconfig
 
 
 #
-
-
+sudo apt-get install openvas -y
+#
 Verify that the components are already instaleld
 openvassd --version
 

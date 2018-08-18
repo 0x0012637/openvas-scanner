@@ -38,22 +38,20 @@ rm service-names-port-numbers.xml
 sudo openvas-feed-update && gsad && openvasmd --rebuild && openvas-setup && openvas-check-setup && service openvas-scanner start && openvas-start
 
 #
-If all is OK tou are seeing the passwword of the admin user, you just see 2 or 3 warnings in your terminal 
+If all is OK you are seeing the password of the admin user, you just see 2 or 3 warnings in your terminal,go ahead
 #
 # Now enjoy the power of this tool, in the OMP console.
 
 #
 #
 #
-Just in case that the console not open automatically, follow this steps:
+Just in case that the console not open automatically, Let's start the console of openvas follow this steps:
 #
 #
 sudo openvasmd
 #
 sudo openvassd
 
-#
-Let's start the console of openvas
 #
 sudo openvas-start
 #

@@ -1,16 +1,5 @@
-# Manual for install and start openvas in Parrot Security OS
-#
-#
-#
-Tested on Linux parrot 4.17.0-parrot8-amd64 #1 SMP Parrot 4.17.8-1parrot8 (2018-08-11) x86_64 GNU/Linux
-#
-Distributor ID:	Parrot
-#
-#Description:	Parrot 4.2
-#
-Release:	4.2
-#
-Codename:	stable
+# Manual for install and start openvas 
+
 #
 #
 #
@@ -20,7 +9,7 @@ If you like learn in detail about this arsenal just visit https://www.greenbone.
 #
 #Let's install the pre-requisites.
 #
-sudo apt-get install build-essential bison flex cmake pkg-config libglib2.0-dev libpcap0.8-dev libgpgme11 libgpgme-dev doxygen libuuid1 uuid-dev libsql-translator-perl xmltoman sqlite3 libxml2-dev libxslt1.1 libxslt1-dev xsltproc libmicrohttpd-dev libpcap-dev pkg-config libgpgme11-dev uuid-dev sqlfairy xmltoman doxygen libssh-dev libksba-dev libldap2-dev libsqlite3-dev libmicrohttpd-dev clang rsync rpm nsis alien  libhiredis-dev libgcrypt11-dev libgnutls28-dev redis-server texlive-latex-base texlive-latex-recommended linux-headers-$(uname -r) -y
+sudo apt-get install dash git-core autoconf libtool gettext autopoint automake autogen nettle-dev libp11-kit-dev libtspi-dev libunistring-dev guile-2.0-dev libtasn1-6-dev libidn2-0-dev gawk gperf libunbound-dev dns-root-data bison help2man gtk-doc-tools texinfo texlive texlive-generic-recommended texlive-extra-utils build-essential bison flex cmake pkg-config libglib2.0-dev libpcap0.8-dev libgpgme11 libgpgme-dev doxygen libuuid1 uuid-dev libsql-translator-perl xmltoman sqlite3 libxml2-dev libxslt1.1 libxslt1-dev xsltproc libmicrohttpd-dev libpcap-dev pkg-config libgpgme11-dev uuid-dev sqlfairy xmltoman doxygen libssh-dev libksba-dev libldap2-dev libsqlite3-dev libmicrohttpd-dev clang rsync rpm nsis alien  libhiredis-dev libgcrypt11-dev libgnutls28-dev redis-server texlive-latex-base texlive-latex-recommended linux-headers-$(uname -r) -y
 
 #
 # Let's update the IANA Services Names list DB pórts.
